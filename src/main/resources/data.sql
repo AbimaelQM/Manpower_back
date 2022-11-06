@@ -88,13 +88,13 @@ INSERT INTO skill_level (id,name) VALUES
 (2,'Pleno'),
 (3,'Senior');
 
-INSERT INTO address (id,country, city, state) VALUES 
+INSERT INTO address (id,country,city,state) VALUES 
   (1,"Brazil","Campinas","São Paulo"),
   (2,"Brazil","Manaus","Amazonas"),
   (3,"Brazil","Porto Alegre","Rio Grande do Sul"),
   (4,"Brazil","Brasília","Distrito Federal");
 
-INSERT INTO person (id,name, email, country, state, city, district, street, number,active) VALUES 
+INSERT INTO person (id,name,email,country,state,city,district,street,number,active) VALUES 
   (1,"Gerlâne","ger@gmail.edu","France","Paris","Saint-Denis","Mountmorency","Jean Jaurès",56,1),
   (2,"Murilo","murilo@gmail.com","Brazil","Acre","Rio Branco","Sobral","Estrada da Sobral",154,1),
   (3,"Christopher","cris@outlook.edu",null,null,null,null,null,null,1),
@@ -116,7 +116,7 @@ INSERT INTO modality (id,name) VALUES
 (2,'Presential'),
 (3,'Hybrid');
 
-INSERT INTO job (id,type_id, modality_id, skill_level_id, skill_id, address_id, sub_team, person_id, active, area_id, team_id) VALUES 
+INSERT INTO job (id,type_id,modality_id,skill_level_id,skill_id,address_id,sub_team,person_id,active,area_id,team_id) VALUES 
 (1,1,2,3,4,1,1,1,1,1,1),
 (2,2,1,2,1,2,2,2,1,1,1),
 (3,2,1,2,6,2,2,3,1,1,1),
@@ -129,7 +129,7 @@ INSERT INTO job (id,type_id, modality_id, skill_level_id, skill_id, address_id, 
 (10,2,1,2,32,3,11,null,1,5,3),
 (11,2,1,2,32,3,11,null,1,5,3);
 
-INSERT INTO person_skill (id,person_id, skill_id, skill_level_id, area_id) VALUES 
+INSERT INTO person_skill (id,person_id,skill_id,skill_level_id,area_id) VALUES 
   (1,1,1,1,1),
   (2,2,2,3,1),
   (3,3,3,2,1),
