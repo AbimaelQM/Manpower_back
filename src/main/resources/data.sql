@@ -82,6 +82,7 @@ INSERT INTO sub_team (id,name, team_id) VALUES
 
 -- usuario: admin@gmail.com
 -- senha:admin
+-- aaaaaaaaaaaaaaaaaaaaaa
 
 INSERT INTO skill_level (id,name) VALUES 
 (1,'Junior'),
