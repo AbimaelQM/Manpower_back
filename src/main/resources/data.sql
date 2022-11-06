@@ -1,7 +1,7 @@
 
 
 -- id, nome
-INSERT INTO area ( id,  name) VALUES
+INSERT INTO area (id,name) VALUES
 (1,'Artificial Intelligence'),
 (2,'Data Analysis'),
 (3,'SW Configuration Management'),
