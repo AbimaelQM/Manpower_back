@@ -88,11 +88,11 @@ INSERT INTO skill_level (id,name) VALUES
 (2,'Pleno'),
 (3,'Senior');
 
-INSERT INTO address (id,country,city,state) VALUES 
-(1,"Brazil","Campinas","São Paulo"),
-(2,"Brazil","Manaus","Amazonas"),
-(3,"Brazil","Porto Alegre","Rio Grande do Sul"),
-(4,"Brazil","Brasília","Distrito Federal");
+INSERT INTO address (city,country,state) VALUES 
+("Campinas","Brazil","São Paulo"),
+("Manaus","Brazil","Amazonas"),
+("Porto Alegre","Brazil","Rio Grande do Sul"),
+("Brasília","Brazil","Distrito Federal");
 
 INSERT INTO person (id,name,email,country,state,city,district,street,number,active) VALUES 
   (1,"Gerlâne","ger@gmail.edu","France","Paris","Saint-Denis","Mountmorency","Jean Jaurès",56,1),
