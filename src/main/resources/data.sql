@@ -53,21 +53,12 @@ INSERT INTO skill (id,name,area_id) VALUES
 (40,'User Trial Lead',7),
 (41,'Project Lead',7);
 
-INSERT INTO usuario (id,active,email,name,role,password) VALUES 
-(1, "1",'admin@gmail.com','Admin','ROLE_ADMIN','$2a$10$zArhMpAXoIhDRvqmJSPI2uDJbGxoQft9g2LCa.7fBCOXDuqKVC6cS')
-;
--- (2,1,'vic@gmail.com','Victoria','ROLE_SLT','$2a$10$zArhMpAXoIhDRvqmJSPI2uDJbGxoQft9g2LCa.7fBCOXDuqKVC6cS'),
--- (3,1,'abimael.queirozl@gmail.com','Abimael','ROLE_SLT','$2a$10$zArhMpAXoIhDRvqmJSPI2uDJbGxoQft9g2LCa.7fBCOXDuqKVC6cS'),
--- (4,1,'leandro@gmail.com','Leandro','ROLE_USER','$2a$10$zArhMpAXoIhDRvqmJSPI2uDJbGxoQft9g2LCa.7fBCOXDuqKVC6cS')
-
--- usuario: admin@gmail.com
--- senha:admin
 
 INSERT INTO team (id,name, job_quantity, usuario_id) VALUES 
-(1,'DF', 5, 2),
-(2,'GPD', 8, 3),
-(3,'Upgrades Core Product', 10, 2),
-(4,'Mototalk', 6, 3);
+(1,5,'DF',  2),
+(2,8,'GPD',  3),
+(3,10,'Upgrades Core Product',  2),
+(4,6,'Mototalk',  3);
 
 INSERT INTO sub_team (id,name, team_id) VALUES 
 (1,'Analytics', 1),
@@ -83,6 +74,16 @@ INSERT INTO sub_team (id,name, team_id) VALUES
 (11,'ASW', 3),
 (12,'Development', 4);
                                                 
+-- INSERT INTO usuario (id,active,email,name,role,password) VALUES 
+-- (1, TRUE,'admin@gmail.com','Admin','ROLE_ADMIN','$2a$10$zArhMpAXoIhDRvqmJSPI2uDJbGxoQft9g2LCa.7fBCOXDuqKVC6cS')
+-- ;
+-- (2,1,'vic@gmail.com','Victoria','ROLE_SLT','$2a$10$zArhMpAXoIhDRvqmJSPI2uDJbGxoQft9g2LCa.7fBCOXDuqKVC6cS'),
+-- (3,1,'abimael.queirozl@gmail.com','Abimael','ROLE_SLT','$2a$10$zArhMpAXoIhDRvqmJSPI2uDJbGxoQft9g2LCa.7fBCOXDuqKVC6cS'),
+-- (4,1,'leandro@gmail.com','Leandro','ROLE_USER','$2a$10$zArhMpAXoIhDRvqmJSPI2uDJbGxoQft9g2LCa.7fBCOXDuqKVC6cS')
+
+-- usuario: admin@gmail.com
+-- senha:admin
+
 INSERT INTO skill_level (id,name) VALUES 
 (1,'Junior'),
 (2,'Pleno'),
