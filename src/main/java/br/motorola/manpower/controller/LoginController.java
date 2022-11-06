@@ -28,6 +28,7 @@ public class LoginController {
     public ResponseEntity<Usuario> getUsuario() {
 
         Principal principal = SecurityContextHolder.getContext().getAuthentication();
+        System.out.print("LOGINNNNNNNNNNNNNNNNNNNNNNNNNN");
         Usuario usuario = servico.getUsuarioByEmailIsActivo(principal.getName());
         
         return new ResponseEntity<>(usuario, HttpStatus.OK);
