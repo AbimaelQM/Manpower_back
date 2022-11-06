@@ -17,7 +17,7 @@ public class FilterCors {
 
         CorsConfiguration configCors = new CorsConfiguration();
         configCors.setAllowCredentials(true);
-        configCors.setAllowedOrigins(Arrays.asList("http://localhost:4200"));
+        configCors.setAllowedOrigins(Arrays.asList("https://manpower-managment.herokuapp.com"));
         configCors.setAllowedMethods(Arrays.asList("*"));
         configCors.setAllowedHeaders(Arrays.asList("*"));
 
