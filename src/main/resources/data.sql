@@ -89,22 +89,22 @@ INSERT INTO skill_level (id,name) VALUES
 (3,'Senior');
 
 INSERT INTO address (city,country,id,state) VALUES 
-("Campinas","Brazil",1,"São Paulo"),
-("Manaus","Brazil",2,"Amazonas"),
-("Porto Alegre","Brazil",3,"Rio Grande do Sul"),
-("Brasília","Brazil",4,"Distrito Federal");
+('Campinas','Brazil',1,'São Paulo'),
+('Manaus','Brazil',2,'Amazonas'),
+('Porto Alegre','Brazil',3,'Rio Grande do Sul'),
+('Brasília','Brazil',4,'Distrito Federal');
 
 INSERT INTO person (id,name,email,country,state,city,district,street,number,active) VALUES 
-  (1,"Gerlâne","ger@gmail.edu","France","Paris","Saint-Denis","Mountmorency","Jean Jaurès",56,1),
-  (2,"Murilo","murilo@gmail.com","Brazil","Acre","Rio Branco","Sobral","Estrada da Sobral",154,1),
-  (3,"Christopher","cris@outlook.edu",null,null,null,null,null,null,1),
-  (4,"Guilherme","gui@outlook.edu",null,null,null,null,null,null,1),
-  (5,"Victor","r9@outlook.edu",null,null,null,null,null,null,1),
-  (6,"Paulo","checkin@outlook.edu",null,null,null,null,null,null,1),
-  (7,"Daniel","omelhor@outlook.edu",null,null,null,null,null,null,1),
-  (8,"Laura","orientadora@outlook.edu",null,null,null,null,null,null,1),
-  (9,"Daricélio","coord@outlook.edu",null,null,null,null,null,null,1),
-  (10,"Nasserala","redes@outlook.edu",null,null,null,null,null,null,1);
+  (1,'Gerlâne','ger@gmail.edu','France','Paris','Saint-Denis','Mountmorency','Jean Jaurès',56,1),
+  (2,'Murilo','murilo@gmail.com','Brazil','Acre','Rio Branco','Sobral','Estrada da Sobral',154,1),
+  (3,'Christopher','cris@outlook.edu',null,null,null,null,null,null,1),
+  (4,'Guilherme','gui@outlook.edu',null,null,null,null,null,null,1),
+  (5,'Victor','r9@outlook.edu',null,null,null,null,null,null,1),
+  (6,'Paulo','checkin@outlook.edu',null,null,null,null,null,null,1),
+  (7,'Daniel','omelhor@outlook.edu',null,null,null,null,null,null,1),
+  (8,'Laura','orientadora@outlook.edu',null,null,null,null,null,null,1),
+  (9,'Daricélio','coord@outlook.edu',null,null,null,null,null,null,1),
+  (10,'Nasserala','redes@outlook.edu',null,null,null,null,null,null,1);
 
 INSERT INTO type (id,name) VALUES 
 (1,'FTE'),

@@ -21,7 +21,6 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-import lombok.Builder.Default;
 
 @Entity
 public class Usuario implements Serializable{
