@@ -1,4 +1,9 @@
 
+INSERT INTO usuario (id,active,email,name,role,password) VALUES 
+(1,TRUE,'admin@gmail.com','Admin','ROLE_ADMIN','$2a$10$zArhMpAXoIhDRvqmJSPI2uDJbGxoQft9g2LCa.7fBCOXDuqKVC6cS'),
+(2,TRUE,'vic@gmail.com','Victoria','ROLE_SLT','$2a$10$zArhMpAXoIhDRvqmJSPI2uDJbGxoQft9g2LCa.7fBCOXDuqKVC6cS'),
+(3,TRUE,'abimael.queirozl@gmail.com','Abimael','ROLE_SLT','$2a$10$zArhMpAXoIhDRvqmJSPI2uDJbGxoQft9g2LCa.7fBCOXDuqKVC6cS'),
+(4,TRUE,'leandro@gmail.com','Leandro','ROLE_USER','$2a$10$zArhMpAXoIhDRvqmJSPI2uDJbGxoQft9g2LCa.7fBCOXDuqKVC6cS');
 
 -- id, nome
 INSERT INTO area (id,name) VALUES
@@ -74,12 +79,6 @@ INSERT INTO sub_team (id,name, team_id) VALUES
 (11,'ASW', 3),
 (12,'Development', 4);
                                                 
--- INSERT INTO usuario (id,active,email,name,role,password) VALUES 
--- (1, TRUE,'admin@gmail.com','Admin','ROLE_ADMIN','$2a$10$zArhMpAXoIhDRvqmJSPI2uDJbGxoQft9g2LCa.7fBCOXDuqKVC6cS')
--- ;
--- (2,1,'vic@gmail.com','Victoria','ROLE_SLT','$2a$10$zArhMpAXoIhDRvqmJSPI2uDJbGxoQft9g2LCa.7fBCOXDuqKVC6cS'),
--- (3,1,'abimael.queirozl@gmail.com','Abimael','ROLE_SLT','$2a$10$zArhMpAXoIhDRvqmJSPI2uDJbGxoQft9g2LCa.7fBCOXDuqKVC6cS'),
--- (4,1,'leandro@gmail.com','Leandro','ROLE_USER','$2a$10$zArhMpAXoIhDRvqmJSPI2uDJbGxoQft9g2LCa.7fBCOXDuqKVC6cS')
 
 -- usuario: admin@gmail.com
 -- senha:admin
