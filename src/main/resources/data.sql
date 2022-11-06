@@ -54,10 +54,10 @@ INSERT INTO skill (id,name,area_id) VALUES
 (41,'Project Lead',7);
 
 INSERT INTO usuario (id,active,email,name,role,password) VALUES 
-(1,1,'admin@gmail.com','Admin','ROLE_ADMIN','$2a$10$zArhMpAXoIhDRvqmJSPI2uDJbGxoQft9g2LCa.7fBCOXDuqKVC6cS'),
-(2,1,'vic@gmail.com','Victoria','ROLE_SLT','$2a$10$zArhMpAXoIhDRvqmJSPI2uDJbGxoQft9g2LCa.7fBCOXDuqKVC6cS'),
-(3,1,'abimael.queirozl@gmail.com','Abimael','ROLE_SLT','$2a$10$zArhMpAXoIhDRvqmJSPI2uDJbGxoQft9g2LCa.7fBCOXDuqKVC6cS'),
-(4,1,'leandro@gmail.com','Leandro','ROLE_USER','$2a$10$zArhMpAXoIhDRvqmJSPI2uDJbGxoQft9g2LCa.7fBCOXDuqKVC6cS')
+(1,1,'admin@gmail.com','Admin','ROLE_ADMIN','$2a$10$zArhMpAXoIhDRvqmJSPI2uDJbGxoQft9g2LCa.7fBCOXDuqKVC6cS')
+-- (2,1,'vic@gmail.com','Victoria','ROLE_SLT','$2a$10$zArhMpAXoIhDRvqmJSPI2uDJbGxoQft9g2LCa.7fBCOXDuqKVC6cS'),
+-- (3,1,'abimael.queirozl@gmail.com','Abimael','ROLE_SLT','$2a$10$zArhMpAXoIhDRvqmJSPI2uDJbGxoQft9g2LCa.7fBCOXDuqKVC6cS'),
+-- (4,1,'leandro@gmail.com','Leandro','ROLE_USER','$2a$10$zArhMpAXoIhDRvqmJSPI2uDJbGxoQft9g2LCa.7fBCOXDuqKVC6cS')
 ;
 
 -- usuario: admin@gmail.com
