@@ -1,7 +1,7 @@
 
 
 -- id, nome
-INSERT INTO area (id,name) VALUES aaaa
+INSERT INTO area ( id,  name) VALUES
 (1,'Artificial Intelligence'),
 (2,'Data Analysis'),
 (3,'SW Configuration Management'),
@@ -54,7 +54,7 @@ INSERT INTO skill (id,name,area_id) VALUES
 (41,'Project Lead',7);
 
 
-INSERT INTO team (id, job_quantity,name, usuario_id) VALUES 
+INSERT INTO team (id,job_quantity,name,usuario_id) VALUES 
 (1,5,'DF',  2),
 (2,8,'GPD',  3),
 (3,10,'Upgrades Core Product',  2),
