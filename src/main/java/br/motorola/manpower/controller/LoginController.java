@@ -26,9 +26,11 @@ public class LoginController {
 
     @GetMapping("/")
     public ResponseEntity<Usuario> getUsuario() {
+        
 
-        Principal principal = SecurityContextHolder.getContext().getAuthentication();
         System.out.print("LOGINNNNNNNNNNNNNNNNNNNNNNNNNN");
+        Principal principal = SecurityContextHolder.getContext().getAuthentication();
+        System.out.print("LOGIN2222");
         Usuario usuario = servico.getUsuarioByEmailIsActivo(principal.getName());
         
         return new ResponseEntity<>(usuario, HttpStatus.OK);
