@@ -47,11 +47,11 @@ public class WebConfigSecurity {
 
             http.httpBasic();
             http.cors();
-            // http.formLogin().loginPage("/login").permitAll();
-            http
-            .formLogin(form -> form
-                    .loginPage("/login")
-                    .permitAll());
+            http.formLogin().loginPage("/login").permitAll();
+            // http
+            // .formLogin(form -> form
+            //         .loginPage("/login")
+            //         .permitAll());
             http.authorizeRequests().antMatchers("/person/**","/area/**", "/user/**", "/team/**").hasAnyRole("ADMIN", "SLT");
             http.authorizeRequests().anyRequest().authenticated();
             http.logout().logoutRequestMatcher(new AntPathRequestMatcher("/logout"));
