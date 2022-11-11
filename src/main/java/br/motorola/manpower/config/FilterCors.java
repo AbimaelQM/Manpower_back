@@ -17,7 +17,7 @@ public class FilterCors {
 
         CorsConfiguration configCors = new CorsConfiguration();
         configCors.setAllowCredentials(true);
-        configCors.setAllowedOrigins(Arrays.asList("https://manpower-managment.herokuapp.com", "https://main.d3t7t5bx3s36d0.amplifyapp.com/login"));
+        configCors.setAllowedOrigins(Arrays.asList("https://manpower-managment.herokuapp.com", "https://main.d3t7t5bx3s36d0.amplifyapp.com"));
         configCors.setAllowedMethods(Arrays.asList("*"));
         configCors.setAllowedHeaders(Arrays.asList("*"));
 
