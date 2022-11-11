@@ -47,7 +47,7 @@ public class WebConfigSecurity {
 
             http.httpBasic();
             http.cors();
-            http.formLogin().loginPage("/login").permitAll();
+            // http.formLogin().loginPage("/login").permitAll();
             http
             .formLogin(form -> form
                     .loginPage("/login")
